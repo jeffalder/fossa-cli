@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+## 3.17.0
+
+- Vendetta: Support single-file library dependencies and multi-location vendored dependencies. Locations are now correctly classified as files or directories in vendored metadata. ([#1680](https://github.com/fossas/fossa-cli/pull/1680))
 - Windows: Fix UTF-8 encoding crash when running `fossa analyze --x-vendetta --debug` on native Windows. The CLI no longer crashes when subprocess output contains Unicode characters. ([#1646](https://github.com/fossas/fossa-cli/pull/1646))
 
 ## 3.16.5
